@@ -1,0 +1,10 @@
+Omlouvám se, e na øádcích 41 a 60 mi validátor hlásí chybu,
+ale pokud mohu posoudit, dìlám to podle zadání a návodu z W3 Schools.
+
+Údajnì v tomto kontextu nemùe bıt ol pouit jako child ul.
+
+Dále se omlouvám za mírnì odlišné barvy(nemám k dispozici kód rgb),
+odlišnı typ písma v h1(nevím, kterı typ jste pouil) a monou odlišnou
+tloušku ohranièení tabulky.
+
+Tomáš Franta
