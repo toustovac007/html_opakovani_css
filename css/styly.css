@@ -22,27 +22,27 @@ body {
 nav {
   /* Selektor pro zna�ku nav */
   background-color: #222;
-  margin: 20px;
+  margin: -20px;
   margin-bottom: 20px;
   padding: 20px;
   font-size: 1.1em;
   color: lightgray;
 }
 
-nav a
+
 
 /* Pro v�echny odkazy v bloku navigace */
-  {
+nav a  {
   padding: 19px;
   text-decoration: none;
   /* Odkazy nebudou podtr�eny */
   color: lightgray;
 }
 
-nav a:hover
+
 
 /* Pro v�echny odkazy v bloku navigace p�i p�ejet� kurzoru my�i */
-  {
+nav a:hover  {
   color: white;
   background-color: rgb(0, 153, 204);
 }
@@ -50,11 +50,11 @@ nav a:hover
 h1 {
   text-align: center;
   /* Nadpis bude vycentrov�n */
-  font-size: 200%;
+  font-size: 2em;
   /* Velikost nadpisu bude dvojn�sobn� vzhledem k z�kladn� velikosti p�sma */
   font-weight: bold;
   /* Nadpis bude tu�n� */
-  color: aqua;
+  color:  rgb(0, 153, 204);
   /* Barva nadpisu bude toto�n� s barvou zv�razn�n�ho odkazu */
   text-transform: uppercase;
   /* Nadpis bude vyps�n velk�mi p�smeny */
@@ -70,13 +70,14 @@ h2, h3 {
   /* Pro relativní pozicování podtržení */
   text-decoration: none;
   /* Vypnutí výchozího podtržení */
-  display: inline-block;
-  /* Aby byla šířka podtržení pouze pod textem */
+
 }
 
 h2 {
   font-size: 1.6em;
   color: rgb(102, 153, 0);
+  display: inline-block;
+  /* Aby byla šířka podtržení pouze pod textem */;
 }
 
 h3 {
@@ -108,12 +109,13 @@ p {
 
 .poznamka {
   font-style: italic;
-  color: silver;
-  margin-left: 50px;
+  color: grey;
+  margin-left: 10px;
   /* Odsazení odstavce zleva */
   border-left: 10px solid silver;
   /* Tlustá čára nalevo od odstavce */
   font-size: 90%;
+  padding-left: 50px;
 }
 
 /* Nastavte pravidlo pro v�echny odstavce-pozn�mky: 
@@ -131,7 +133,7 @@ li {
 
 .nadpis {
   font-weight: bold;
-  color: aqua;
+  color:  rgb(0, 153, 204);
 }
 
 /* Nastavte pravidlo pro v�echny tu�n� a mod�e zv�razn�n� texty v odr�k�ch. */
